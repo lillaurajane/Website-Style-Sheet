@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "open sans", "sans serif";
+}
+
+/* Header */
+header{
+    margin: 0;
+    background-color: #C08F63;
+}
+
+/* main{
+    margin:40px;
+} */
+
+h1{
+    position: relative;
+    top: 48px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    clear: both;
+}
+/* Navigation bar */
+nav a{
+    text-decoration: none;
+    color: #fff;
+    top: 5px;
+    margin: 5px;
+    padding: 10px;
+    float: right;
+}
+
+/* Headings */
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: "meow script", cursive;
+}
+
+#colourheader{
+    background-color:#95C9D8;
+    color: #fff;
+    margin-top: 40px;
+}
+
+#fontheader{
+    background-color:#F4DABE;
+    color: #C08F63;
+}
+
+#textheader{
+    background-color: #6E7683;
+    color: #fff;
+}
+
+/* Sections */
+.colour{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.colour-name{
+    margin: 0;
+}
+
+/* Border */
+.colour, .fonts, .text{
+    padding: 30px;
+    margin: auto;
+}
+
+/* Swatches */
+
+.swatch p{
+    display: inline-block;
+    width: 120px;
+    padding: 15px;
+    text-align: center;
+    margin: 5px;
+}
+
+.blue{
+    background-color:#95C9D8;
+}
+
+.sand{
+    background-color:#F4DABE;
+}
+
+.caramel{
+    background-color: #C08F63;
+    color: White;
+}
+
+.grey{
+    background-color:#6E7683;
+    color: White;
+}
+
+/* Text underneath swatches */
+
+.colour-name p{
+    display: inline-block;
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.blue2{
+    border-bottom:#95C9D8 3px solid;
+}
+.sand2{
+    border-bottom:#F4DABE 3px solid;
+}
+.caramel2{
+    border-bottom: #C08F63 3px solid;
+}
+.grey2{
+    border-bottom:#6E7683 3px solid;
+}
+
+/* Font Section */
+.fonts{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.first, .second{
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+#two{
+    font-weight: 300;
+}
+
+.second p{
+    font-family: 'Meow Script', cursive;
+    font-size: 22px;
+}
+
+.second h3{
+    font-family: 'Meow Script', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+/* Text Styles */
+
+.text{
+    margin: auto;
+    width: 50%;
+}
+
+#mainheading{
+    font-size: 60px;
+    font-weight: Bold;
+    font-family: "open sans", sans-serif;
+}
+
+#subheading{
+    font-size: 40px;
+    font-family: "meow script", cursive;
+}
+
+#paragraph{
+    font-weight: 300;
+    font-size: 16px;
+    font-family: "open sans", sans-serif;
+}
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+
+/* Footer */
+footer{
+    background-color: #C08F63;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}

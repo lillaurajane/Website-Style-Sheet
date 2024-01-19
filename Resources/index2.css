@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "open sans", "sans serif";
+}
+
+/* Header */
+header{
+    margin: 0;
+    background-color: #C08F63;
+}
+
+h1{
+    position: relative;
+    top: 68px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+div{
+    margin: 40px;
+}
+/* Navigation bar */
+nav a{
+    text-decoration: none;
+    color: #fff;
+    top: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Headings */
+h2{
+    margin: 40px;
+    font-size: 30px;
+}
+
+/* Border
+.colour, .fonts, .text{
+    border:1px #000 solid;
+} */
+
+/* Colour palette Section*/
+
+.swatch p{
+    float: left;
+    padding: 30px 0;
+    width: 20%;
+    height: 50px;
+    background-color: #C08F63;
+    margin: 5px;
+    text-align: center;
+    min-width: 120px;
+    max-width: 120px;
+    
+}
+
+.colour-name p{
+    float: left;
+    padding: 30px 0;
+    width: 20%;
+    height: 50px;
+    background-color: #C08F63;
+    margin: 5px;
+    text-align: center;
+    min-width: 120px;
+    max-width: 120px;
+    
+}
+
+.blue2{
+    clear: left;
+}
+
+/* .swatch, .colour-name{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+.blue{
+    padding: 20px;
+    margin: 5px;
+    background-color:#95C9D8;
+    text-align: center;    
+    width: 100px;
+}
+.sand{
+    padding: 20px;
+    margin: 5px;
+    background-color:#F4DABE;
+    text-align: center;
+    width: 100px;
+
+}
+
+.caramel{
+    padding: 20px;
+    margin: 5px;
+    background-color: #C08F63;
+    color: White;
+    text-align: center;
+    width: 100px;
+
+}
+.grey{
+    padding: 20px;
+    margin: 5px;
+    background-color:#6E7683;
+    color: White;
+    text-align: center;
+    width: 100px;
+
+} */
+
+/* Text underneath */
+
+/* .blue2{
+    padding: 20px;
+    margin: 5px;
+    border-bottom:#95C9D8 3px solid;
+    width: 100px;
+    text-align: center;
+    
+}
+.sand2{
+    padding: 20px;
+    margin: 5px;
+    border-bottom:#F4DABE 3px solid;
+    width: 100px;
+    text-align: center;
+}
+.caramel2{
+    padding: 20px;
+    margin: 5px;
+    border-bottom: #C08F63 3px solid;
+    width: 100px;
+    text-align: center;
+}
+.grey2{
+    padding: 20px;
+    margin: 5px;
+    border-bottom:#6E7683 3px solid;
+    width: 100px;
+    text-align: center;
+} */
+
+/* Font Section */
+
+.fonts{
+    display: block;
+}
+.first, .second{
+    display: inline-block;
+    width: 40%;
+}
+
+h3{
+    text-decoration: underline;
+}
+#two{
+    font-weight: 300;
+}
+
+.second p{
+    font-family: 'Meow Script', cursive;
+    font-size: 22px;
+}
+.second h3{
+    font-family: 'Meow Script', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer{
+    padding: 20px;
+    margin: 20px;
+    font-size: 12px;
+}
+
+/* Text Section */
+
+.h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.h2{
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.p{
+    font-size: 16px;
+    font-weight: 300;
+}
